@@ -1,0 +1,104 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/*banner section */
+.banner-section {
+    background: url(../images/monster-micheal-tood.png) no-repeat center center;
+    background-size: cover;
+    height: 520px;
+}
+
+.superpatch-logo {
+    width: 14%;
+}
+
+/* sign up section */
+.sign-up-form .klaviyo-form span,
+.sign-up-form .klaviyo-form input,
+.sign-up-form .klaviyo-form .kl-private-reset-css-Xuajs1,
+.sign-up-form .klaviyo-form p {
+    font-family: "Poppins", sans-serif !important;
+}
+
+
+/* social media section */
+.social-media-sharing-section h2 {
+    margin-top: 8rem;
+}
+
+.share-icon-container {
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid #2F2F2F;
+    padding: 8px 10px;
+    border-radius: 24px;
+    text-decoration: none;
+    color: #2F2F2F;
+    font-weight: 700;
+    width: 100%;
+    justify-content: center;
+}
+
+.share-icon-container img {
+    width: 24px;
+    height: 24px;
+}
+
+.share-icon {
+    cursor: pointer;
+}
+
+/* footer section */
+.footer-section {
+    background-color: #1d1e20;
+}
+
+/* global */
+.green {
+    color: #009F00;
+}
+
+.red {
+    color: #FF0000;;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+
+/* media queries */
+@media (min-width: 1200px) {
+    .image-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .t-shirt-image {
+        display: block;
+        width: 88%;
+    }
+    
+    .michael-todd-logo {
+        position: absolute;
+        bottom: 10%;
+        right: 74%;
+        height: auto;
+        width: 80%;
+    }
+    
+    .personally-signed {
+        position: absolute;
+        top: 66%;
+        right: 60%;
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .banner-section {
+        height: 300px;
+    }
+}
