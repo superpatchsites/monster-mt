@@ -1,12 +1,3 @@
-window.addEventListener("klaviyoForms", function(e) { 
-    var event = null;
-    if (e.detail.type == 'open' || e.detail.type == 'embedOpen') {
-	document.querySelector("a[href='https://www.monsters-are-real.com/#termsAndConditionsModal']").addEventListener("click",function(e){
-		e.preventDefault();
-		document.querySelector("[data-bs-target='#termsAndConditionsModal']").click();
-	})
-    }
-});
 if (window.location.hash) {
 	var modalId = window.location.hash.substring(1);
 	var modalElement = document.getElementById(modalId);
