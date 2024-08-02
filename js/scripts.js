@@ -1,5 +1,5 @@
 async function activateModal(){
-	await new Promise(r => SetTimeout(r,1000));
+	await new Promise(r => setTimeout(r,1000));
 	document.querySelector("a[href='https://www.monsters-are-real.com/#termsAndConditionsModal']").addEventListener("click",function(e){
 		e.preventDefault();
 		document.querySelector("[data-bs-target='#termsAndConditionsModal']").click();
