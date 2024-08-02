@@ -1,6 +1,6 @@
 function handleShare(platform) {
 	const shareData = {
-		title: 'Check out this contest!',
+		title: 'Enter for a Chance to Win!',
 		url: 'https://monsters-are-real.com/',
 	};
 
