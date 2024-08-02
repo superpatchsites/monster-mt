@@ -1,3 +1,9 @@
+function activateModal(){
+	document.querySelector("a[href='https://www.monsters-are-real.com/#termsAndConditionsModal']").addEventListener("click",function(e){
+		e.preventDefault();
+		document.querySelector("[data-bs-target='#termsAndConditionsModal']").click();
+	})
+}
 if (window.location.hash) {
 	var modalId = window.location.hash.substring(1);
 	var modalElement = document.getElementById(modalId);
