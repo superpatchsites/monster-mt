@@ -1,7 +1,7 @@
 function handleShare(platform) {
 	const shareData = {
 		title: 'Check out this contest!',
-		url: 'https://www.superpatch.com/',
+		url: 'https://monsters-are-real.com/',
 	};
 
 	if (navigator.share) {
