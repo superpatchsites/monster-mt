@@ -97,8 +97,12 @@ body {
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     .banner-section {
         height: 300px;
+    }
+
+    .social-media-sharing-section h2 {
+        margin-top: 0;
     }
 }
