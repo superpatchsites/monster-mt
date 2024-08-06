@@ -5,12 +5,13 @@ body {
 /*banner section */
 .banner-section {
     background: url(../images/monster-micheal-tood.png) no-repeat center center;
-    background-size: cover;
-    height: 520px;
+    background-size: contain;
+    background-color: #000;
+    height: 580px;
 }
 
 .superpatch-logo {
-    width: 14%;
+    width: 8%;
 }
 
 /* sign up section */
@@ -19,6 +20,32 @@ body {
 .sign-up-form .klaviyo-form .kl-private-reset-css-Xuajs1,
 .sign-up-form .klaviyo-form p {
     font-family: "Poppins", sans-serif !important;
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.t-shirt-image {
+    display: block;
+    width: 88%;
+}
+
+.michael-todd-logo {
+    position: absolute;
+    bottom: 10%;
+    right: 74%;
+    height: auto;
+    width: 80%;
+}
+
+.personally-signed {
+    position: absolute;
+    top: 66%;
+    right: 60%;
+    height: auto;
+    width: 100%;
 }
 
 
@@ -60,7 +87,8 @@ body {
 }
 
 .red {
-    color: #FF0000;;
+    color: #FF0000;
+    ;
 }
 
 .small-text {
@@ -69,40 +97,36 @@ body {
 
 
 /* media queries */
-@media (min-width: 1200px) {
-    .image-wrapper {
-        position: relative;
-        display: inline-block;
-    }
-    
-    .t-shirt-image {
-        display: block;
-        width: 88%;
-    }
-    
-    .michael-todd-logo {
-        position: absolute;
-        bottom: 10%;
-        right: 74%;
-        height: auto;
-        width: 80%;
-    }
-    
-    .personally-signed {
-        position: absolute;
-        top: 66%;
-        right: 60%;
-        height: auto;
-        width: 100%;
-    }
-}
+@media (min-width: 1200px) {}
 
 @media (max-width: 767px) {
     .banner-section {
         height: 300px;
+        background-size: cover;
     }
 
     .social-media-sharing-section h2 {
         margin-top: 0;
+    }
+
+    .image-wrapper {
+        display: flex;
+        justify-content: end;
+    }
+
+    .t-shirt-image {
+        display: inline-block;
+        width: 60%;
+    }
+
+    .michael-todd-logo {
+        right: 36%;
+        width: 60%;
+    }
+
+    .personally-signed {
+        top: 57%;
+        right: 20%;
+        font-size: 14px !important;
     }
 }
