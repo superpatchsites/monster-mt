@@ -10,9 +10,12 @@ body {
     height: 580px;
 }
 
-.superpatch-logo,
-.superpatch-logo-mobile {
+.superpatch-logo {
     width: 8%;
+}
+
+.superpatch-logo-mobile {
+    width: 10%;
 }
 
 /* sign up section */
@@ -28,7 +31,7 @@ body {
 
 .michael-todd-logo {
     position: absolute;
-    bottom: 10%;
+    bottom: 8%;
     right: 74%;
     height: auto;
     width: 80%;
@@ -37,7 +40,7 @@ body {
 .personally-signed {
     position: absolute;
     top: 66%;
-    right: 60%;
+    right: 66%;
     height: auto;
     width: 100%;
 }
@@ -131,7 +134,7 @@ body {
     }
 
     .superpatch-logo-mobile {
-        width: 5%;
+        width: 6%;
     }
 
     .superpatch-logo {
