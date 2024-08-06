@@ -10,7 +10,8 @@ body {
     height: 580px;
 }
 
-.superpatch-logo {
+.superpatch-logo,
+.superpatch-logo-mobile {
     width: 8%;
 }
 
@@ -97,8 +98,6 @@ body {
 
 
 /* media queries */
-@media (min-width: 1200px) {}
-
 @media (max-width: 767px) {
     .banner-section {
         height: 300px;
@@ -129,4 +128,21 @@ body {
         right: 20%;
         font-size: 14px !important;
     }
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .banner-section {
+        height: 400px;
+        background-size: cover;
+    }
+
+    .superpatch-logo-mobile {
+        width: 5%;
+    }
+
+    .superpatch-logo {
+        width: 10%;
+    }
+
 }
