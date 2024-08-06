@@ -38,15 +38,6 @@ body {
     width: 80%;
 }
 
-.personally-signed {
-    position: absolute;
-    top: 64%;
-    right: 56%;
-    height: auto;
-    width: 100%;
-}
-
-
 /* social media section */
 .social-media-sharing-section h2 {
     margin-top: 8rem;
@@ -118,12 +109,6 @@ body {
     .michael-todd-logo {
         right: 38%;
         width: 60%;
-    }
-
-    .personally-signed {
-        top: 57%;
-        right: 20%;
-        font-size: 14px !important;
     }
 }
 
