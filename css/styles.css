@@ -16,13 +16,6 @@ body {
 }
 
 /* sign up section */
-.sign-up-form .klaviyo-form span,
-.sign-up-form .klaviyo-form input,
-.sign-up-form .klaviyo-form .kl-private-reset-css-Xuajs1,
-.sign-up-form .klaviyo-form p {
-    font-family: "Poppins", sans-serif !important;
-}
-
 .image-wrapper {
     position: relative;
     display: inline-block;
@@ -144,5 +137,11 @@ body {
     .superpatch-logo {
         width: 10%;
     }
-
 }
+
+@media (min-width: 1201px) and (max-width: 1500px) {
+    .banner-section {
+        background-size: cover;
+    }
+}
+
