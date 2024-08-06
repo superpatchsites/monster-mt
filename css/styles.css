@@ -27,7 +27,6 @@ body {
 
 .t-shirt-image {
     display: block;
-    width: 76%;
 }
 
 .michael-todd-logo {
@@ -35,7 +34,6 @@ body {
     bottom: 8%;
     right: 64%;
     height: auto;
-    width: 80%;
 }
 
 /* social media section */
@@ -125,11 +123,6 @@ body {
 
     .superpatch-logo {
         width: 10%;
-    }
-
-    .t-shirt-image {
-        display: block;
-        width: 88%;
     }
 }
 
