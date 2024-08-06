@@ -15,7 +15,7 @@ if (window.location.hash) {
 }
 function handleShare(platform) {
 	const shareData = {
-		title: 'Enter for a Chance to Win!',
+		title: 'Enter for a chance to win',
 		url: 'https://monsters-are-real.com/',
 	};
 
