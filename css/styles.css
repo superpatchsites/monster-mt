@@ -126,7 +126,7 @@ body {
     }
 }
 
-@media (min-width: 1201px) and (max-width: 1500px) {
+@media (min-width: 1201px) and (max-width: 1800px) {
     .banner-section {
         background-size: cover;
     }
